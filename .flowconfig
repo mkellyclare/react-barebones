@@ -1,0 +1,21 @@
+[ignore]
+.*/node_modules/[a|b|c|d|e|f|g|h|i|j|k|l|n|o|p|q|s|t|u|v|w|x|y|z].*
+.*/node_modules/req.*
+.*/node_modules/res.*
+.*/node_modules/react-motion.*
+
+.*/dist/.*
+
+[include]
+src
+
+[libs]
+interfaces
+
+[options]
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+suppress_type=$FlowIssue
+module.name_mapper='.*\(.css\)' -> 'CSSModule'
+module.system=haste
