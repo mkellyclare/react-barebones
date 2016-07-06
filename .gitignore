@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+npm-debug.log
+dist
+.idea
+*.iml
+test-results.xml
+.eslintrc
